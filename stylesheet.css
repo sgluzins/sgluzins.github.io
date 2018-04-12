@@ -1,0 +1,54 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    color: #FFF;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.wide-text {
+    letter-spacing: 10px;
+}
+
+.title {
+    background-color: #999;
+    font-weight: 300;
+    font-size: 32px;
+    padding: 0 15px;
+    position: absolute;
+    opacity: 0.8;
+    top: 50%;
+    left: 10%;
+}
+
+.bg-img-1, .bg-img-2, .bg-img-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-1 {
+    background-image: url('assets/az-sg.jpg');
+    min-height: 100%;
+}
+
+/* @media screen and (min-width: 1200px) {
+}
+@media screen and (max-width: 768px){
+}
+@media screen and (min-width: 650px) {
+}
+@media screen and (max-width: 480px) {
+} */
