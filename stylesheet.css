@@ -6,7 +6,7 @@ body {
 body, html {
     margin: 0;
     height: 100%;
-    color: #FFF;
+    color: #999;
     line-height: 1.8;
 }
 
@@ -17,19 +17,58 @@ a {
     padding: 0 15px;
 }
 
-.wide-text {
+a:hover {
+    background-color: #999;
+    color:#FFF;
+}
+
+.title-text {
     letter-spacing: 10px;
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFF;
 }
 
 .title {
     background-color: #999;
-    font-weight: 300;
-    font-size: 32px;
     padding: 0 15px;
     position: absolute;
     opacity: 0.8;
     top: 50%;
     left: 10%;
+    transform: translate(-10%,-50%);
+}
+
+i {
+    padding: 0 20px 0 0;
+}
+
+.i-list {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0 0 20px 0;
+}
+
+.i-location {
+    padding: 0 25px 0 5px;
+    margin: 0 0 20px 0;
+}
+
+#about {
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Amatic SC', Helvetica;
+    padding: 30px;
+    text-align: center;
+}
+
+#goals {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 30px;
 }
 
 .bg-img-1, .bg-img-2, .bg-img-3 {
@@ -37,11 +76,37 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .bg-img-1 {
     background-image: url('assets/az-sg.jpg');
     min-height: 100%;
+}
+
+.bg-img-2 {
+    background-image: url('assets/pink-bg.jpg');
+    min-height: 100%;
+}
+
+.img-info {
+    margin: 0 0 0 50px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+    object-fit: cover;
+}
+
+.about {
+    display: inline-flex;
+    text-align: left;
+}
+
+.goals {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
 }
 
 /* @media screen and (min-width: 1200px) {
