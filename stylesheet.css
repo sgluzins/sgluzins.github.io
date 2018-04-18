@@ -1,6 +1,8 @@
-body {
+body, p {
     font-family: "Lato", sans-serif;
     font-weight: 100;
+    font-size: 16px;
+    text-align: center;
 }
 
 body, html {
@@ -10,16 +12,35 @@ body, html {
     line-height: 1.8;
 }
 
+a, .home-title {
+    padding: 0 15px;
+}
+
 a {
     text-decoration: none;
     color: #000;
     font-size: 18px;
-    padding: 0 15px;
 }
 
-a:hover {
+.header, .about-content {
+    text-align: left;
+}
+
+.header a:hover, .home-title {
     background-color: #999;
     color:#FFF;
+}
+
+footer {
+    background-color: #1DA1D4;
+}
+
+footer a {
+    color: #FFF;
+}
+
+footer {
+    padding: 80px;
 }
 
 .title-text {
@@ -29,41 +50,60 @@ a:hover {
     color: #FFF;
 }
 
-.title {
-    background-color: #999;
-    padding: 0 15px;
+.home-title, .section-title {
     position: absolute;
-    opacity: 0.8;
     top: 50%;
+}
+
+.home-title {
+    opacity: 0.8;
     left: 10%;
     transform: translate(-10%,-50%);
 }
 
-i {
-    padding: 0 20px 0 0;
+.section-title {
+    transform: translate(-50%,-50%);
+    left: 50%;
 }
 
-.i-list {
-    font-size: 16px;
+.i-list, .i-location {
     padding: 5px;
-    margin: 0 0 20px 0;
 }
 
-.i-location {
-    padding: 0 25px 0 5px;
-    margin: 0 0 20px 0;
+i, .i-location {
+    padding-right: 20px;
 }
 
-#about {
+.i-list, .i-location {
+    margin-bottom: 20px;
+}
+
+#about, #goals {
+    font-family: 'Amatic SC', Helvetica;
     font-weight: 200;
     font-size: 20px;
-    font-family: 'Amatic SC', Helvetica;
     padding: 30px;
-    text-align: center;
 }
 
-#goals {
-    text-align: center;
+#travel {
+    height: 500px; 
+    min-width: 310px; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+#sukigluz, #gwg {
+	margin-top: 20px;
+	height: 240px;
+    border: 1px dashed black;
+}
+
+#sukigluz {
+    width: 320px;
+}
+
+#gwg {
+	width: 240px;
 }
 
 ul {
@@ -77,36 +117,27 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    min-height: 100%;
 }
 
 .bg-img-1 {
     background-image: url('assets/az-sg.jpg');
-    min-height: 100%;
 }
 
 .bg-img-2 {
     background-image: url('assets/pink-bg.jpg');
-    min-height: 100%;
 }
 
 .img-info {
-    margin: 0 0 0 50px;
+    margin-left: 50px;
 	border-radius: 50%;
 	height: 200px;
 	width: 200px;
     object-fit: cover;
 }
 
-.about {
+.about-content {
     display: inline-flex;
-    text-align: left;
-}
-
-.goals {
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
 }
 
 /* @media screen and (min-width: 1200px) {
