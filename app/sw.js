@@ -19,11 +19,3 @@ self.addEventListener('fetch', () => {
         return response || fetch(event.request);
     }));
 });
-
-<script>
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then( () =>
-        console.log("service worker registered!")
-    )}
-)}
-</script>
