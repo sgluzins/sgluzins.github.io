@@ -5,15 +5,15 @@ const URLS = [
     'assets/*'
 ];
 
-self.addEventListener('install', e => {
- e.waitUntil(
+self.addEventListener('install', event => {
+ event.waitUntil(
    caches.open('sg').then(cache => {
      return cache.addAll(URLS);
    })
  );
 });
 
-self.addEventListener('fetch', () => {
+self.addEventListener('fetch', event => {
     console.log(event.request.url);
     event.respondWith(caches.match(event.request).then(response => {
         return response || fetch(event.request);
