@@ -1,0 +1,157 @@
+body, p {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    color: #999;
+    line-height: 1.8;
+}
+
+p, a {
+    color: #000;
+}
+
+.header a:hover, .home-title, footer a, .title-text {
+    color:#FFF;
+}
+
+.header a:hover, .home-title {
+    background-color: #999;
+}
+
+a, .home-title {
+    padding: 0 15px;
+}
+
+.scrollTop {
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header, .about-content {
+    text-align: left;
+}
+
+.title-text {
+    letter-spacing: 10px;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.home-title, .section-title {
+    position: absolute;
+    top: 50%;
+}
+
+.home-title {
+    opacity: 0.8;
+    left: 10%;
+    transform: translate(-10%,-50%);
+}
+
+.section-title {
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+
+.i-list, .i-location {
+    padding: 5px;
+}
+
+i, .i-location {
+    padding-right: 20px;
+}
+
+.i-list, .i-location {
+    margin-bottom: 20px;
+}
+
+#about, #goals {
+    font-family: 'Amatic SC', Helvetica;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 30px;
+}
+
+#travel {
+    height: 500px; 
+    min-width: 310px; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+#sukigluz, #gwg {
+	margin-top: 20px;
+	height: 240px;
+    border: 1px dashed #000;
+}
+
+#sukigluz {
+    width: 320px;
+}
+
+#gwg {
+	width: 240px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.bg-img-1, .bg-img-2, .bg-img-3, footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.bg-img-1, .bg-img-2, .bg-img-3 {
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    min-height: 100%;
+}
+
+.bg-img-1 {
+    background-image: url('assets/az-sg.jpg');
+}
+
+.bg-img-2 {
+    background-image: url('assets/pink-bg.jpg');
+}
+
+footer {
+    /* background-color: #1DA1D4; */
+    background-image: url('assets/blue-bg.jpg');
+    padding: 80px;
+}
+
+.img-info {
+    margin-left: 50px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+    object-fit: cover;
+}
+
+.about-content {
+    display: inline-flex;
+}
+
+/* @media screen and (min-width: 1200px) {
+}
+@media screen and (max-width: 768px){
+}
+@media screen and (min-width: 650px) {
+}
+@media screen and (max-width: 480px) {
+} */
