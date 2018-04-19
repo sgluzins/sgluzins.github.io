@@ -1,6 +1,6 @@
 body, p {
     font-family: "Lato", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 16px;
     text-align: center;
 }
@@ -12,13 +12,28 @@ body, html {
     line-height: 1.8;
 }
 
+p, a {
+    color: #000;
+}
+
+.header a:hover, .home-title, footer a, .title-text {
+    color:#FFF;
+}
+
+.header a:hover, .home-title {
+    background-color: #999;
+}
+
 a, .home-title {
     padding: 0 15px;
 }
 
+.scrollTop {
+    margin-bottom: 50px;
+}
+
 a {
     text-decoration: none;
-    color: #000;
     font-size: 18px;
 }
 
@@ -26,28 +41,10 @@ a {
     text-align: left;
 }
 
-.header a:hover, .home-title {
-    background-color: #999;
-    color:#FFF;
-}
-
-footer {
-    background-color: #1DA1D4;
-}
-
-footer a {
-    color: #FFF;
-}
-
-footer {
-    padding: 80px;
-}
-
 .title-text {
     letter-spacing: 10px;
     font-weight: 300;
     font-size: 32px;
-    color: #FFF;
 }
 
 .home-title, .section-title {
@@ -95,7 +92,7 @@ i, .i-location {
 #sukigluz, #gwg {
 	margin-top: 20px;
 	height: 240px;
-    border: 1px dashed black;
+    border: 1px dashed #000;
 }
 
 #sukigluz {
@@ -111,11 +108,15 @@ ul {
     line-height: 30px;
 }
 
+.bg-img-1, .bg-img-2, .bg-img-3, footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
 .bg-img-1, .bg-img-2, .bg-img-3 {
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     min-height: 100%;
 }
@@ -126,6 +127,12 @@ ul {
 
 .bg-img-2 {
     background-image: url('assets/pink-bg.jpg');
+}
+
+footer {
+    /* background-color: #1DA1D4; */
+    background-image: url('assets/blue-bg.jpg');
+    padding: 80px;
 }
 
 .img-info {
