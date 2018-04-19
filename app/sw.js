@@ -1,5 +1,3 @@
-importScripts('/cache-polyfill.js');
-
 self.addEventListener('install', (e) => {
  e.waitUntil(
    caches.open('sgluzins').then(function(cache) {
