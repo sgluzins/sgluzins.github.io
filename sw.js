@@ -2,7 +2,15 @@ const URLS = [
     '/',
     'index.html',
     'stylesheet.css',
-    'assets/*'
+    'assets/az-sg.jpg',
+    'assets/blue-bg.jpg',
+    'assets/GWG-badge.png',
+    'assets/pink-bg.jpg',
+    'assets/sg copy.jpg',
+    'assets/sg.jpg',
+    'assets/sukigluzinski.png',
+    'assets/icofont/css/icofont.css',
+    'assets/font-awesome-4.6.3/css/font-awesome.min.css'
 ];
 
 self.addEventListener('install', event => {
