@@ -15,11 +15,11 @@ const URLS = [
     'assets/icofont/fonts/icofont.ttf',
     'assets/icofont/fonts/icofont.woff',
     'assets/font-awesome-4.6.3/css/font-awesome.min.css',
-    'assets/font-awesome-4.6.3/fonts/font-awesome-webfont.eot',
-    'assets/font-awesome-4.6.3/fonts/font-awesome-webfont.svg',
-    'assets/font-awesome-4.6.3/fonts/font-awesome-webfont.tff',
-    'assets/font-awesome-4.6.3/fonts/font-awesome-webfont.woff',
-    'assets/font-awesome-4.6.3/fonts/font-awesome-webfont.woff2',
+    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.eot',
+    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.svg',
+    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.tff',
+    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff',
+    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2',
     'assets/font-awesome-4.6.3/fonts/FontAwesome.otf'
 ];
 
