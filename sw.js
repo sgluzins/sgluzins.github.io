@@ -1,8 +1,8 @@
 const URLS = [
     '/',
-    '/index.html',
-    '/stylesheet.css',
-    'assets/*'
+    'index.html',
+    // '/stylesheet.css',
+    // 'assets/*'
 ];
 
 self.addEventListener('install', e => {
