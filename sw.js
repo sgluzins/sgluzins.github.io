@@ -9,18 +9,9 @@ const URLS = [
     'assets/sg copy.jpg',
     'assets/sg.jpg',
     'assets/sukigluzinski.png',
-    'assets/icofont/css/icofont.css',
-    'assets/icofont/fonts/icofont.eot',
-    'assets/icofont/fonts/icofont.svg',
-    'assets/icofont/fonts/icofont.ttf',
     'assets/icofont/fonts/icofont.woff',
-    'assets/font-awesome-4.6.3/css/font-awesome.min.css',
-    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.eot',
-    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.svg',
-    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf',
-    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff',
-    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2',
-    'assets/font-awesome-4.6.3/fonts/FontAwesome.otf'
+    'assets/font-awesome-4.6.3/fonts/fontawesome.webfont.woff',
+    'assets/font-awesome-4.6.3/fonts/fontawesome.webfont.woff2'
 ];
 
 self.addEventListener('install', event => {
