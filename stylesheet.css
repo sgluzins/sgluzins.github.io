@@ -63,16 +63,28 @@ a {
     left: 50%;
 }
 
-.i-list, .i-location {
+.fa-map-marker-alt {
     padding: 5px;
 }
 
-i, .i-location {
+.fa-file-code {
+    padding-left: 3px;
+}
+
+.fa-coffee, .fa-laptop, .fa-graduation-cap, .i-db {
+    margin: -3px;
+}
+
+i, .fa-map-marker-alt, .fa-file-code, .i-db {
     padding-right: 20px;
 }
 
-.i-list, .i-location {
+.fa-list-ul, .fa-map-marker-alt {
     margin-bottom: 20px;
+}
+
+.fa-heart {
+    padding-right: 0;
 }
 
 #about, #goals {
@@ -106,6 +118,11 @@ i, .i-location {
 ul {
     list-style-type: none;
     line-height: 30px;
+}
+
+.i-db {
+    width: 25px;
+    height: 20px;
 }
 
 .bg-img-1, .bg-img-2, .bg-img-3, footer {

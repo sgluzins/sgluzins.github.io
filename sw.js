@@ -9,9 +9,7 @@ const URLS = [
     'assets/sg copy.jpg',
     'assets/sg.jpg',
     'assets/sukigluzinski.png',
-    'assets/icofont/fonts/icofont.woff',
-    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff',
-    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2'
+    'assets/icofont-dumbbell.png'
 ];
 
 self.addEventListener('install', event => {
