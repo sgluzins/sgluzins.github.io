@@ -10,8 +10,8 @@ const URLS = [
     'assets/sg.jpg',
     'assets/sukigluzinski.png',
     'assets/icofont/fonts/icofont.woff',
-    'assets/font-awesome-4.6.3/fonts/fontawesome.webfont.woff',
-    'assets/font-awesome-4.6.3/fonts/fontawesome.webfont.woff2'
+    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff',
+    'assets/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2'
 ];
 
 self.addEventListener('install', event => {
