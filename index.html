@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:200,300,100">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
     <script src="https://code.highcharts.com/maps/modules/data.js"></script>
     <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 
     <body>
-        <div class="header" id="header">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#goals">goals</a>
-            <a href="#contact">contact</a>
+        <div class="navbar">
+            <div class="header" id="header">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#goals">goals</a>
+                <a href="#contact">contact</a>
+            </div>
         </div>
 
         <div class="bg-img-1" id="home">
@@ -38,7 +41,7 @@
                     <li><i class="fas fa-map-marker-alt"></i>pasadena, california</li>
     
                     <li><i class="far fa-hand-peace"></i>
-                        50%<font face="sans-serif" size="3px">한국인</font></li>
+                        50%<font face="sans-serif" size="3px"> 한국인</font></li>
                     <li><i class="fas fa-globe"></i>travel seeker</li>
                     <li><i class="far fa-lemon"></i>passionate cook</li>
                     <li><i class="fas fa-utensils"></i> food nerd</li>
@@ -249,6 +252,16 @@
             navigator.serviceWorker.register('sw.js').then( () =>
                 console.log("service worker registered!")
         )}
+
+        window.onscroll = function() { navbarScroll() };
+        function navbarScroll() {
+            var navbar = document.getElementById("header");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "header-scroll";
+            } else {
+                navbar.className = navbar.className.replace(" header-scroll", "");
+            }
+        }
     </script>
 
 </html>

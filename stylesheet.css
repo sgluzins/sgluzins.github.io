@@ -3,6 +3,7 @@ body, p {
     font-weight: 200;
     font-size: 16px;
     text-align: center;
+    color: #000;
 }
 
 body, html {
@@ -12,32 +13,41 @@ body, html {
     line-height: 1.8;
 }
 
-p, a {
+.navbar {
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top: 0;
+}
+
+.header-scroll a:hover {
+    background-color: #FFF;
     color: #000;
 }
 
-.header a:hover, .home-title, footer a, .title-text {
+a, .header a:hover, .home-title, footer a, .title-text {
     color:#FFF;
 }
 
-.header a:hover, .home-title {
+.header a:hover, .home-title, .header-scroll, .bg-grey {
     background-color: #999;
 }
 
 a, .home-title {
-    padding: 0 15px;
+    padding: 0 16px;
 }
 
 .scrollTop {
     margin-bottom: 50px;
 }
 
-a {
+a, .header-scroll, .header {
     text-decoration: none;
     font-size: 18px;
+    padding: 8px 16px;
 }
 
-.header, .about-content {
+.header, .about-content, .header-scroll {
     text-align: left;
 }
 
@@ -91,7 +101,7 @@ i, .fa-map-marker-alt, .fa-file-code, .i-db {
     font-family: 'Amatic SC', Helvetica;
     font-weight: 200;
     font-size: 20px;
-    padding: 30px;
+    padding: 20px 200px;
 }
 
 #travel {
@@ -147,7 +157,6 @@ ul {
 }
 
 footer {
-    /* background-color: #1DA1D4; */
     background-image: url('assets/blue-bg.jpg');
     padding: 80px;
 }
@@ -164,11 +173,37 @@ footer {
     display: inline-flex;
 }
 
-/* @media screen and (min-width: 1200px) {
+@media screen and (max-width: 935px){
+    #about, #goals {
+        padding: 20px 100px;
+    }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 740px) {
+    .header, .header-scroll {
+        text-align: center;
+    }
+    #about, #goals {
+        padding: 20px;
+    }
+    footer {
+        padding: 80px 20px;
+    }
+    .home-title {
+        font-size: 24px;
+        margin: 10%;
+    }
+    .about-content {
+        display: grid;
+    }
+    .img-info {
+        order: 1;
+        margin: 0 auto;
+    }
+    ul {
+        order: 2;
+        margin: 20px auto;
+    }
+    footer a {
+        padding: 0 10px;
+    }
 }
-@media screen and (min-width: 650px) {
-}
-@media screen and (max-width: 480px) {
-} */
