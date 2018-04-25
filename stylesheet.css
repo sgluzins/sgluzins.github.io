@@ -14,9 +14,9 @@ body, html {
 }
 
 .navbar {
-    position:fixed;
-    width:100%;
-    z-index:1;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     top: 0;
 }
 
@@ -25,15 +25,15 @@ body, html {
     color: #000;
 }
 
-a, .header a:hover, .home-title, footer a, .title-text {
-    color:#FFF;
+a, .header a:hover, .home-title, .title-text {
+    color: #FFF;
 }
 
-.header a:hover, .home-title, .header-scroll, .bg-grey {
+.header a:hover, .home-title, .header-scroll {
     background-color: #999;
 }
 
-a, .home-title {
+.home-title {
     padding: 0 16px;
 }
 
@@ -135,33 +135,6 @@ ul {
     height: 20px;
 }
 
-.bg-img-1, .bg-img-2, footer {
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-}
-
-.bg-img-1, .bg-img-2 {
-    background-attachment: fixed;
-    position: relative;
-    min-height: 100%;
-}
-
-.bg-img-1 {
-    background-image: url('assets/az-sg.jpg');
-    background-position: 0% 20%;
-}
-
-.bg-img-2 {
-    background-image: url('assets/pink-bg.jpg');
-    background-position: center;
-}
-
-footer {
-    background-image: url('assets/blue-bg.jpg');
-    padding: 80px;
-}
-
 .img-info {
     margin-left: 50px;
 	border-radius: 50%;
@@ -172,6 +145,36 @@ footer {
 
 .about-content {
     display: inline-flex;
+}
+
+.bg-img-1, .bg-img-2, footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100%;
+}
+
+/* .bg-img-1, .bg-img-2 {
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100%;
+} */
+
+.bg-img-1 {
+    background-image: url('assets/az-sg.jpg');
+    background-position: 100% 20%;
+}
+
+.bg-img-2 {
+    background-image: url('assets/pink-bg.jpg');
+    background-position: center;
+}
+
+footer {
+    background-image: url('assets/blue-bg.jpg');
+    padding: 80px;
 }
 
 @media screen and (max-width: 935px){
