@@ -151,16 +151,13 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
+}
+
+.bg-img-1, .bg-img-2 {
     background-attachment: fixed;
     position: relative;
     min-height: 100%;
 }
-
-/* .bg-img-1, .bg-img-2 {
-    background-attachment: fixed;
-    position: relative;
-    min-height: 100%;
-} */
 
 .bg-img-1 {
     background-image: url('assets/az-sg.jpg');
