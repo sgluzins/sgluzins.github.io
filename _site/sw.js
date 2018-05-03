@@ -2,7 +2,7 @@ const URLS = [
     '/',
     'index.html',
     'stylesheet.css',
-    'assets/sg-bright.jpg',
+    'assets/az-sg.jpg',
     'assets/blue-bg.jpg',
     'assets/GWG-badge.png',
     'assets/pink-bg.jpg',
