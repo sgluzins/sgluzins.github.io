@@ -101,7 +101,7 @@ i, .fa-map-marker-alt, .fa-file-code, .i-db {
     font-family: 'Amatic SC', Helvetica;
     font-weight: 200;
     font-size: 20px;
-    padding: 20px 200px;
+    padding: 20px 100px;
 }
 
 #travel {
@@ -174,17 +174,20 @@ footer {
     padding: 80px;
 }
 
-@media screen and (max-width: 935px){
+@media screen and (max-width: 474px){
+    .header, .header-scroll {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px){
     #about, #goals {
-        padding: 20px 100px;
+        width: 570px;
+        margin: auto;
     }
 }
 @media screen and (max-width: 740px) {
     .bg-img-1, .bg-img-2 {
         background-attachment: scroll;
-    }
-    .header, .header-scroll {
-        text-align: center;
     }
     #about, #goals {
         padding: 20px;
